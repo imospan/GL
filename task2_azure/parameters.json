@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "loadBalancers_lb1_name": {
+            "value": null
+        },
+        "virtualMachines_VM1_name": {
+            "value": null
+        },
+        "virtualMachines_VM2_name": {
+            "value": null
+        },
+        "networkInterfaces_vm112_name": {
+            "value": null
+        },
+        "networkInterfaces_vm233_name": {
+            "value": null
+        },
+        "publicIPAddresses_lb_ip_name": {
+            "value": null
+        },
+        "publicIPAddresses_VM1_ip_name": {
+            "value": null
+        },
+        "publicIPAddresses_VM2_ip_name": {
+            "value": null
+        },
+        "virtualNetworks_GL_task_vnet_name": {
+            "value": null
+        },
+        "networkSecurityGroups_VM1_nsg_name": {
+            "value": null
+        },
+        "networkSecurityGroups_VM2_nsg_name": {
+            "value": null
+        },
+        "images_VM1_image_20221223154544_name": {
+            "value": null
+        },
+        "networkSecurityGroups_VM1nsg946_name": {
+            "value": null
+        },
+        "disks_VM1_OsDisk_1_25462b0315844acdac79dd219a49840f_externalid": {
+            "value": null
+        }
+    }
+}
