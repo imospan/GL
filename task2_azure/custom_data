@@ -1,0 +1,18 @@
+#cloud-config
+package_upgrade: true
+packages:
+  - apache2
+  - php
+  - libapache2-mod-php
+write_files:
+  - owner: root:root
+    path: /var/www/html/index.php
+    content: |
+      <html>
+      <body>
+      <p>Hello GlobalLogic! Homework_2 by Ivan Mospan. Hostname is:</p>
+      <?php echo gethostname(); ?>
+      </body>
+      </html>
+runcmd:
+    rm -rf /var/www/html/index.html
