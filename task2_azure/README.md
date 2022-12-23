@@ -11,7 +11,7 @@ I've created and configured resource group as shown below:
 https://github.com/imospan/devops_basecamp/blob/main/task2_azure/GL_task_schema.png
 
 Attaching these screens to show that LB is working:
-https://github.com/imospan/devops_basecamp/blob/main/task2_azure/screen1.png
-https://github.com/imospan/devops_basecamp/blob/main/task2_azure/screen2.png
+![alt text](https://github.com/imospan/devops_basecamp/blob/main/task2_azure/screen1.png?raw=true)
+![alt text](https://github.com/imospan/devops_basecamp/blob/main/task2_azure/screen2.png?raw=true)
 
 Exported templates are added to repo as JSON files.
