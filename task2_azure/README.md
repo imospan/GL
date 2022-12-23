@@ -8,9 +8,10 @@ Task:
 At first, I tried to start Apache manually by script, but then decided to learn how to use cloud-init. Both script and init included in repo.
 
 I've created and configured resource group as shown below: 
-https://github.com/imospan/devops_basecamp/blob/main/task2_azure/GL_task_schema.png
+![alt text](https://github.com/imospan/devops_basecamp/blob/main/task2_azure/GL_task_schema.png?raw=true)
 
 Attaching these screens to show that LB is working:
+
 ![alt text](https://github.com/imospan/devops_basecamp/blob/main/task2_azure/screen1.png?raw=true)
 ![alt text](https://github.com/imospan/devops_basecamp/blob/main/task2_azure/screen2.png?raw=true)
 
