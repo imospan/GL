@@ -13,4 +13,4 @@ sudo systemctl enable httpd
 sudo chown -R $USER:$USER /var/www
 
 #creating HTML
-echo "Hello GlobalLogic! Homework_2 by Ivan Mospan" > /var/www/html/index.html
+echo "Hello GlobalLogic! Homework_2 by Ivan Mospan $(hostname -i)" > /var/www/html/index.html
