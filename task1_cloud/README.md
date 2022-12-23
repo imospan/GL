@@ -13,7 +13,7 @@ The results of AWS pricing calculation shown on screenshot:
 Azure pricing:
 ![alt text](https://github.com/imospan/devops_basecamp/blob/main/task1_cloud/Azure.png?raw=true)
 
-As you can see, equal cloud solutions are at least twice cheaper, then on-premise one.
+As you can see, equal cloud solutions are at least twice cheaper than on-premise one.
 
 Also, while creating our own web server, we shouldn't forget to consider all additional risks, that take place in Ukraine nowadays (such as shelling and the absence of electricity for a long period of time).
 It is more preferably to create an infrastructure in the public cloud to save money, avoid war-associated risks, while having faster creation and deployment with no CapEx and much easier scaling, if needed.
