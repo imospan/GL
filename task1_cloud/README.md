@@ -1,7 +1,7 @@
 Task 1 - prepare a list of resources required to run a typical LAMP website in a private datacenter for one year with pricing and compare to cloud solutions.
 -----------
 
-Costs for creating a web server in a private data center depend on scale of your web-site and traffic volume - the more powerful solutions you need - the more CapEx you'll  have. But it may be cheaper in the long run for some small web-sites.
+The costs of creating a web server in a private data center depend on scale of your web-site and traffic volume - the more powerful solutions you need - the more CapEx you'll  have. But it may be cheaper in the long run for some small web-sites.
 Nevertheless, equipment has to be purchased upfront for startup and maintenance (CapEx), while the public cloud does not require buying new equipment for scaling (No CapEx).
 
 I've calculated approximate costs for a powerful (above average) on-premise servers with load balancer in private datacenter:
