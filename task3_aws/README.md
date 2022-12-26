@@ -1,6 +1,7 @@
 Task 3. Prepare the environment via AWS and install LMS Moodle.
 --------------------------
-I've used AWS free tier EC2 t2.micro with Ubuntu.
+I've used AWS free tier EC2 t2.micro with Ubuntu and info from https://docs.moodle.org/401/en/Step-by-step_Installation_Guide_for_Ubuntu
+
 ![screen](https://user-images.githubusercontent.com/106439773/209528123-7a9c9fb5-ceb7-4c95-ae39-5e8a1ee16c49.png)
 
 Commands used to install Moodle:
