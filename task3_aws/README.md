@@ -4,6 +4,7 @@ I've used AWS free tier EC2 t2.micro with Ubuntu.
 ![screen](https://user-images.githubusercontent.com/106439773/209528123-7a9c9fb5-ceb7-4c95-ae39-5e8a1ee16c49.png)
 
 Commands used to install Moodle:
+```shell
 sudo apt-get -y update
 sudo apt -y install apache2
 sudo apt -y install mysql-client mysql-server
@@ -29,3 +30,4 @@ quit;
 sudo chmod 777 /etc/php/8.1/apache2/php.ini
 sudo service apache2 restart
 sudo chmod -R 777 /var/www/html/moodle
+```
