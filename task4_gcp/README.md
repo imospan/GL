@@ -7,6 +7,7 @@ gcloud compute instances create gltask-instance --project=gltask --zone=us-east1
 The result can be seen on a console screen:
 ![screen1](https://user-images.githubusercontent.com/106439773/209690413-89eac8da-f865-4b90-b612-16330e392185.png)
 
-Then I've copied a Bash script, made it executable with `chmod +x` and runned.
+Then I've copied a [Bash script](https://github.com/imospan/devops_basecamp/blob/main/task4_gcp/lamp.sh), made it executable with `chmod +x` and runned.
 After script complition I could check that a simple web-page was created:
+
 ![screen2](https://user-images.githubusercontent.com/106439773/209690757-934ad658-d774-4656-8cd7-cd9773e6ccb9.png)
