@@ -1,0 +1,8 @@
+---
+# tasks file for create_file
+
+ - name: Create an empty file in /etc/iaac with 0500 rights
+   file:
+    path: /etc/iaac
+    state: touch
+    mode: 0500
