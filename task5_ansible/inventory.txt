@@ -1,0 +1,13 @@
+[server1]
+ans1 ansible_host=44.202.111.222
+
+[server2]
+ans2 ansible_host=35.173.124.116
+
+[server3]
+ans3 ansible_host=44.204.54.223 
+
+
+[iaas:children]
+server1
+server2
