@@ -1,0 +1,13 @@
+---
+- name: Create an empty file /etc/iaac with rights 0500
+  hosts: iaas
+  become: yes
+  roles:
+    - create_file
+
+- name: Fetch distro name and version
+  hosts: all
+  become: yes
+  gather_facts: yes
+  roles:
+    - distro_version
