@@ -14,10 +14,12 @@ Setup
 ----------------------
 First of all, you'll need to download and configure [VS Code](https://code.visualstudio.com/download) and create your [SSH key-pair](https://adamtheautomator.com/add-ssh-key-to-vs-code/).\
 Then, get AWS credentials in IAM via AWS console as described [here](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html).\
-I'd recommend you to use your access keys as [environment variables](https://registry.terraform.io/providers/hashicorp/aws/2.34.0/docs) to make Terraform able to deploy your EC2 instance.
+I'd recommend you to use your access keys as [environment variables](https://registry.terraform.io/providers/hashicorp/aws/2.34.0/docs#environment-variables) as an easy and safe way to make Terraform able to deploy your EC2 instance.\
 How to get credentials for MS Azure can be read [here](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/azure_cli).
 _________________
-Then you can copy .tf files and modules to your folder, edit your credenetials and run:
+Deployment
+---------------
+Now you can copy .tf files and modules to your folder, edit your credenetials and run:
 ```
 terraform init
 terraform plan
@@ -25,4 +27,6 @@ terraform apply -auto-approve
 ```
 After deploying infrastracture, you'll be able to see public IP's in outputs.
 
-Use ```terraform destroy``` to kill your nodes.
+Https to reach Grafana
+
+Use ```terraform destroy``` to kill your nodes when finished.
