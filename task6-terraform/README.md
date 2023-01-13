@@ -11,7 +11,7 @@ Requirements:
 -	Add terraform apply output to the last section of your readme.
 _____________________
 
-First of all, you need to download and configure [VS Code](https://code.visualstudio.com/download), create a [SSH key-pair](https://adamtheautomator.com/add-ssh-key-to-vs-code/) and credentials for [AWS](https://registry.terraform.io/providers/hashicorp/aws/2.34.0/docs) and [MS Azure]().
+First of all, you'll need to download and configure [VS Code](https://code.visualstudio.com/download), create a [SSH key-pair](https://adamtheautomator.com/add-ssh-key-to-vs-code/) and credentials for [AWS](https://registry.terraform.io/providers/hashicorp/aws/2.34.0/docs) and [MS Azure](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/azure_cli).
 Then you can copy .tf files and modules to your folder, edit your credenetials and run:
 ```
 terraform init
