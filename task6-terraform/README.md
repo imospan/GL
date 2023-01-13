@@ -11,11 +11,13 @@ Requirements:
 -	Add terraform apply output to the last section of your readme.
 _____________________
 
-First of all, you need to download and configure VS Code \link\, create a SSH key-pair\\ and credentials for AWS\\ an MS Azure.
+First of all, you need to download and configure [VS Code](https://code.visualstudio.com/download), create a [SSH key-pair](https://adamtheautomator.com/add-ssh-key-to-vs-code/) and credentials for [AWS](https://registry.terraform.io/providers/hashicorp/aws/2.34.0/docs) and [MS Azure]().
 Then you can copy .tf files and modules to your folder, edit your credenetials and run:
 ```
 terraform init
 terraform plan
-terraform apply
+terraform apply -auto-approve
 ```
 After deploying infrastracture, you'll be able to see public IP's in outputs.
+
+Use ```terraform destroy``` to kill your nodes.
