@@ -20,7 +20,7 @@ provider "aws" {
 }
 
 # Configure Azure provider.
-#Use keys as environment variables or uncomment and enter your own.export ARM_CLIENT_ID=55f48348-7cc6-4970-af43-6224003fe231
+#Use keys as environment variables or uncomment and enter your own.
 
 provider "azurerm" {
   features {}
