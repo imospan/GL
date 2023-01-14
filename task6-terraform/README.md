@@ -12,14 +12,14 @@ Requirements:
 _____________________
 Setup
 ----------------------
-First of all, you'll need to download and configure [VS Code](https://code.visualstudio.com/download) and create your [SSH key-pair](https://adamtheautomator.com/add-ssh-key-to-vs-code/).\
+First of all, you'll need to download and configure [Terraform](https://developer.hashicorp.com/terraform/downloads), [VS Code](https://code.visualstudio.com/download) and create your [SSH key-pair](https://adamtheautomator.com/add-ssh-key-to-vs-code/).\
 Then, get AWS credentials in IAM via AWS console as described [here](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html).\
 I'd recommend you to use your access keys as [environment variables](https://registry.terraform.io/providers/hashicorp/aws/2.34.0/docs#environment-variables) as an easy and safe way to make Terraform able to deploy your EC2 instance.\
-How to get credentials for MS Azure can be read [here](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/azure_cli).
+To use credentials for MS Azure you will need [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli). How to use them can be read [here](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/azure_cli).
 _________________
 Deployment
 ---------------
-Now you can copy .tf files and modules to your folder, edit your credenetials and run:
+Now you can copy .tf files and modules to your directory, edit your credenetials and run:
 ```
 terraform init
 terraform plan
